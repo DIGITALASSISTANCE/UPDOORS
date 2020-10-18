@@ -9,7 +9,7 @@
         </a>
         <div class="block lg:hidden">
           <button
-            class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none"
+            class="flex items-center px-3 py-2 text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none"
           >
             <svg
               class="fill-current h-6 w-6"
@@ -24,16 +24,16 @@
         <div class="hidden lg:block">
           <ul class="inline-flex">
             <li>
-              <a class="px-4 font-bold" href="about">UP DOORSについて</a>
+              <a class="px-4 font-bold" href="#about">UP DOORSについて</a>
             </li>
             <li>
-              <a class="px-4 hover:text-gray-800" href="business">事業内容</a>
+              <a class="px-4 hover:text-gray-800" href="#business">事業内容</a>
             </li>
             <li>
-              <a class="px-4 hover:text-gray-800" href="company">企業情報</a>
+              <a class="px-4 hover:text-gray-800" href="#company">企業情報</a>
             </li>
             <li>
-              <a class="px-4 hover:text-gray-800" href="contact">お問い合わせ</a>
+              <a class="px-4 hover:text-gray-800" href="#contact">お問い合わせ</a>
             </li>
           </ul>
         </div>

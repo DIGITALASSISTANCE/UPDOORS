@@ -1,20 +1,21 @@
 <template>
 
     <body class="text-gray-700 bg-white" style="font-family: 'Helvetica', sans-serif">
-        <!--Hero-->
-        <div class="py-20" style="background: linear-gradient(90deg, #ff6633 0%, #fcbe32 100%)">
+        <!--parallaxTes-->
+        <div class="bg-header flex items-center justify-center h-screen pb-12">
             <div class="container mx-auto px-6">
                 <h2 class="text-4xl font-bold mb-2 text-white">
-                    会社のキャッチコピー
+                    UP DATA
                 </h2>
                 <h3 class="text-2xl mb-8 text-gray-200">
-                    副題としてなにかテキストテキストテキストテキストテキスト
+                    副題テキストテキストテキストテキストテキスト
                 </h3>
                 <button class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
                     お問い合わせ
                 </button>
             </div>
         </div>
+
         <!-- Features -->
         <section class="container mx-auto px-6 p-10">
             <h2 id="about" class="text-4xl font-bold text-center text-teal-900 mb-8">
@@ -67,6 +68,18 @@
                 </div>
             </div>
         </section>
+
+        <div class="bg-quote container flex items-center justify-center h-screen mx-auto">
+            <blockquote class="bg-black font-serif mx-4 p-4 text-center text-white md:p-8">
+                <p class="font-bold italic text-3xl">
+                    わたしたちにできること
+                </p>
+            </blockquote>
+        </div>
+<!--StepBoder-->
+<div class="mt-20">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fcbe32" fill-opacity="1" d="M0,288L0,128L36.9,128L36.9,128L73.8,128L73.8,32L110.8,32L110.8,288L147.7,288L147.7,128L184.6,128L184.6,64L221.5,64L221.5,0L258.5,0L258.5,32L295.4,32L295.4,128L332.3,128L332.3,128L369.2,128L369.2,64L406.2,64L406.2,0L443.1,0L443.1,256L480,256L480,96L516.9,96L516.9,224L553.8,224L553.8,64L590.8,64L590.8,64L627.7,64L627.7,64L664.6,64L664.6,192L701.5,192L701.5,128L738.5,128L738.5,0L775.4,0L775.4,64L812.3,64L812.3,32L849.2,32L849.2,32L886.2,32L886.2,64L923.1,64L923.1,192L960,192L960,32L996.9,32L996.9,96L1033.8,96L1033.8,64L1070.8,64L1070.8,96L1107.7,96L1107.7,64L1144.6,64L1144.6,160L1181.5,160L1181.5,288L1218.5,288L1218.5,128L1255.4,128L1255.4,96L1292.3,96L1292.3,224L1329.2,224L1329.2,160L1366.2,160L1366.2,224L1403.1,224L1403.1,64L1440,64L1440,320L1403.1,320L1403.1,320L1366.2,320L1366.2,320L1329.2,320L1329.2,320L1292.3,320L1292.3,320L1255.4,320L1255.4,320L1218.5,320L1218.5,320L1181.5,320L1181.5,320L1144.6,320L1144.6,320L1107.7,320L1107.7,320L1070.8,320L1070.8,320L1033.8,320L1033.8,320L996.9,320L996.9,320L960,320L960,320L923.1,320L923.1,320L886.2,320L886.2,320L849.2,320L849.2,320L812.3,320L812.3,320L775.4,320L775.4,320L738.5,320L738.5,320L701.5,320L701.5,320L664.6,320L664.6,320L627.7,320L627.7,320L590.8,320L590.8,320L553.8,320L553.8,320L516.9,320L516.9,320L480,320L480,320L443.1,320L443.1,320L406.2,320L406.2,320L369.2,320L369.2,320L332.3,320L332.3,320L295.4,320L295.4,320L258.5,320L258.5,320L221.5,320L221.5,320L184.6,320L184.6,320L147.7,320L147.7,320L110.8,320L110.8,320L73.8,320L73.8,320L36.9,320L36.9,320L0,320L0,320Z"></path></svg>
+</div>
         <!-- Testimonials -->
         <section style="background-color:#FCBE32;">
             <div class="container mx-auto px-6 pt-20 pb-40">
@@ -131,7 +144,9 @@
                 </div>
             </div>
         </section>
-
+        <!--Parallax_end-->
+        <!--StepBoder-->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fcbe32" fill-opacity="1" d="M0,256L0,224L36.9,224L36.9,224L73.8,224L73.8,0L110.8,0L110.8,224L147.7,224L147.7,64L184.6,64L184.6,160L221.5,160L221.5,192L258.5,192L258.5,32L295.4,32L295.4,32L332.3,32L332.3,64L369.2,64L369.2,64L406.2,64L406.2,192L443.1,192L443.1,320L480,320L480,96L516.9,96L516.9,32L553.8,32L553.8,128L590.8,128L590.8,256L627.7,256L627.7,96L664.6,96L664.6,0L701.5,0L701.5,224L738.5,224L738.5,128L775.4,128L775.4,96L812.3,96L812.3,128L849.2,128L849.2,192L886.2,192L886.2,320L923.1,320L923.1,128L960,128L960,192L996.9,192L996.9,128L1033.8,128L1033.8,192L1070.8,192L1070.8,96L1107.7,96L1107.7,192L1144.6,192L1144.6,320L1181.5,320L1181.5,128L1218.5,128L1218.5,128L1255.4,128L1255.4,256L1292.3,256L1292.3,96L1329.2,96L1329.2,32L1366.2,32L1366.2,0L1403.1,0L1403.1,224L1440,224L1440,0L1403.1,0L1403.1,0L1366.2,0L1366.2,0L1329.2,0L1329.2,0L1292.3,0L1292.3,0L1255.4,0L1255.4,0L1218.5,0L1218.5,0L1181.5,0L1181.5,0L1144.6,0L1144.6,0L1107.7,0L1107.7,0L1070.8,0L1070.8,0L1033.8,0L1033.8,0L996.9,0L996.9,0L960,0L960,0L923.1,0L923.1,0L886.2,0L886.2,0L849.2,0L849.2,0L812.3,0L812.3,0L775.4,0L775.4,0L738.5,0L738.5,0L701.5,0L701.5,0L664.6,0L664.6,0L627.7,0L627.7,0L590.8,0L590.8,0L553.8,0L553.8,0L516.9,0L516.9,0L480,0L480,0L443.1,0L443.1,0L406.2,0L406.2,0L369.2,0L369.2,0L332.3,0L332.3,0L295.4,0L295.4,0L258.5,0L258.5,0L221.5,0L221.5,0L184.6,0L184.6,0L147.7,0L147.7,0L110.8,0L110.8,0L73.8,0L73.8,0L36.9,0L36.9,0L0,0L0,0Z"></path></svg>
         <!-- Trainers Section -->
         <section class="pt-20 pb-48">
             <div class="container mx-auto px-4">
@@ -141,7 +156,7 @@
                             ボードメンバー
                         </h2>
                         <p class="text-lg leading-relaxed m-4">
-                            UP DOORSのボードメンバーご紹介<br>
+                            UP DOORSのボードメンバー紹介<br>
                             テキストテキストテキストテキストテキストテキスト<br>
                             テキストテキストテキストテキストテキストテキスト
                         </p>
@@ -222,13 +237,13 @@
                                     下記入力フォームよりお気軽にお問い合わせください。<br>当該担当者よりご返事させていただきます。
                                 </p>
                                 <div class="relative w-full mb-3 mt-8">
-                                    <label class="block uppercase text-xs font-bold mb-2" for="full-name">お名前</label><input type="text" class="px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="アップドアーズ" style="transition: all 0.15s ease 0s" />
+                                    <label class="block uppercase text-xs font-bold mb-2" for="full-name">お名前</label><input type="text" class="text-gray-900 px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="アップドアーズ" style="transition: all 0.15s ease 0s" />
                                 </div>
                                 <div class="relative w-full mb-3">
-                                    <label class="block uppercase text-xs font-bold mb-2" for="email">メールアドレス</label><input type="email" class="px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="XXXXXXXX@up-doors.com" style="transition: all 0.15s ease 0s" />
+                                    <label class="block uppercase text-xs font-bold mb-2" for="email">メールアドレス</label><input type="email" class="text-gray-900 px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="XXXXXXXX@up-doors.com" style="transition: all 0.15s ease 0s" />
                                 </div>
                                 <div class="relative w-full mb-3">
-                                    <label class="block uppercase text-xs font-bold mb-2" for="message">お問い合わせ内容</label><textarea rows="4" cols="80" class="px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="エンジニアが足りない！"></textarea>
+                                    <label class="block uppercase text-xs font-bold mb-2" for="message">お問い合わせ内容</label><textarea rows="4" cols="80" class="text-gray-900 px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="エンジニアが足りない！"></textarea>
                                 </div>
                                 <div class="text-center mt-6">
                                     <button class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1" type="button" style="transition: all 0.15s ease 0s">
@@ -241,52 +256,6 @@
                 </div>
             </div>
         </section>
-
-        <!--parallaxTes-->
-        <div class="bg-header flex items-center justify-center h-screen pb-12">
-            <div class="bg-white font-serif mx-4 p-4 text-center md:p-8">
-                <p class="italic text-sm">
-                    November 1, 2019
-                </p>
-                <h1 class="text-5xl uppercase">
-                    Article Title
-                </h1>
-                <p class="text-lg">
-                    Author Name
-                </p>
-            </div>
-        </div>
-
-        <div class="font-serif leading-normal mx-auto py-12 px-4 max-w-lg">
-            <p class="mb-6 text-xl md:text-2xl uppercase">This is a simple parallax effect created by setting the background attachment property to a fixed position. This technique is not meant for non-decorative images, videos, etc. as those require additional HTML and CSS to work properly.</p>
-            <p class="mb-4 text-lg">Quae commodi reiciendis dignissimos. Rerum molestiae hic dolores assumenda dolor! Corrupti reiciendis maxime fuga, recusandae obcaecati officia cum temporibus dicta quibusdam praesentium, magni, cumque aperiam iusto sequi illum molestiae non.</p>
-            <p class="mb-4 text-lg">In excepturi repellendus eum, qui corrupti rerum perferendis harum adipisci voluptate? Nihil, quidem deleniti libero officia dicta vel asperiores velit molestiae blanditiis, dolore voluptatibus excepturi laudantium at veniam illo. Dolor!</p>
-            <p class="mb-4 text-lg">Neque laudantium minus doloremque id quas quod sint velit corporis unde dolore accusantium delectus optio consequuntur voluptatem sapiente odit dolorum minima harum tenetur, dolor provident reprehenderit. Ex eum provident harum?</p>
-            <p class="mb-4 text-lg">Mollitia temporibus maxime placeat culpa distinctio possimus, praesentium, assumenda quasi eum voluptate magni aspernatur aperiam. Eius voluptates rem eum, facilis inventore hic provident pariatur nam non! At odit iste cum.</p>
-            <p class="mb-4 text-lg">Cumque voluptatibus laboriosam tempore architecto laudantium sint vitae cupiditate voluptate quod tempora saepe odio quasi dolores possimus non totam unde voluptates corrupti, ducimus ipsa enim officiis ipsum maxime eveniet. Aut!</p>
-            <p class="mb-4 text-lg">Maxime facere ut natus libero incidunt alias quam consectetur, nisi delectus exercitationem ab qui perferendis dolorem sequi veritatis nobis eius quas dolore ducimus atque vel. Doloribus mollitia non pariatur modi?</p>
-            <p class="mb-4 text-lg">Sed in amet a neque, delectus, cupiditate ab assumenda quidem facere molestias vitae itaque soluta reprehenderit dolorem. Deserunt quibusdam, consequatur veniam fugiat ipsam aliquam ea possimus quis officiis enim dolores.</p>
-            <p class="mb-4 text-lg">Exercitationem aperiam veniam perspiciatis iure ad nobis necessitatibus cumque cupiditate obcaecati natus. Neque nostrum maxime id veritatis tempore, a voluptate voluptatem et! A ullam id aliquam? Recusandae deleniti odit fugit!</p>
-            <p class="mb-4 text-lg">Beatae rerum obcaecati consectetur nostrum eos ipsam, accusamus delectus ex maxime neque sit quod repellendus voluptate sunt dolore hic explicabo ea dolorum vero vel quidem illo! Cupiditate sed voluptatibus ullam?</p>
-            <p class="mb-4 text-lg">Modi aliquam facilis adipisci! Soluta eveniet eos omnis, inventore nesciunt, laborum deserunt blanditiis nihil accusamus debitis voluptatibus possimus dolores vero maiores, sed voluptate ut! Facilis possimus vitae consectetur praesentium veritatis.</p>
-            <p class="mb-4 text-lg">Tempore, quaerat accusamus ad nostrum maiores numquam, ea nam sed reiciendis, eveniet perspiciatis. Eos nulla vel consectetur quo nesciunt aspernatur sint nemo cumque optio mollitia, veritatis, tenetur quibusdam eum natus.</p>
-        </div>
-
-        <div class="bg-quote container flex items-center justify-center h-screen mx-auto">
-            <blockquote class="bg-black font-serif mx-4 p-4 text-center text-white md:p-8">
-                <p class="font-bold italic text-3xl">
-                    &ldquo;Large, bold pull quote. Hats. Very good.&rdquo;
-                </p>
-            </blockquote>
-        </div>
-
-        <div class="font-serif leading-normal mx-auto py-12 px-4 max-w-lg">
-            <p class="mb-4 text-lg">Quae commodi reiciendis dignissimos. Rerum molestiae hic dolores assumenda dolor! Corrupti reiciendis maxime fuga, recusandae obcaecati officia cum temporibus dicta quibusdam praesentium, magni, cumque aperiam iusto sequi illum molestiae non.</p>
-            <p class="mb-4 text-lg">In excepturi repellendus eum, qui corrupti rerum perferendis harum adipisci voluptate? Nihil, quidem deleniti libero officia dicta vel asperiores velit molestiae blanditiis, dolore voluptatibus excepturi laudantium at veniam illo. Dolor!</p>
-            <p class="mb-4 text-lg">Neque laudantium minus doloremque id quas quod sint velit corporis unde dolore accusantium delectus optio consequuntur voluptatem sapiente odit dolorum minima harum tenetur, dolor provident reprehenderit. Ex eum provident harum?</p>
-            <p class="mb-4 text-lg">Mollitia temporibus maxime placeat culpa distinctio possimus, praesentium, assumenda quasi eum voluptate magni aspernatur aperiam. Eius voluptates rem eum, facilis inventore hic provident pariatur nam non! At odit iste cum.</p>
-        </div>
-        <!--Test_END-->
     </body>
 </template>
 

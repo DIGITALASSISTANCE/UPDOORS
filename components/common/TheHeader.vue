@@ -2,24 +2,18 @@
     <!--Nav-->
     <nav>
       <div
-        class="container mx-auto px-6 py-2 flex justify-between items-center"
+        class="container mx-auto px-6 py-6 flex justify-between items-center"
       >
         <a class="font-bold text-2xl lg:text-4xl" href="#">
             <img src="~/../../assets/images/logotype_praimry.png">
         </a>
         <div class="block lg:hidden">
-          <button
-            class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none"
-          >
-            <svg
-              class="fill-current h-6 w-6"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
+        <tasty-burger-button
+        :type="buttonType"
+        :active="isActive"
+        :size="size"
+        :color="color"
+        :active-color="activeColor"/>
         </div>
         <div class="hidden lg:block">
           <ul class="inline-flex">
@@ -40,3 +34,17 @@
       </div>
     </nav>
 </template>
+
+<script>
+export default {
+    data () {
+    return {
+      buttonType: 'spring',
+      isActive: false,
+      size: 'l',
+      color: '#6E7785',
+      activeColor: '#FCBE32'
+    }
+  }
+}
+</script>
