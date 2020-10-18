@@ -4,13 +4,13 @@
         <!--parallaxTes-->
         <div class="bg-header flex items-center justify-center h-screen pb-12">
             <div class="container mx-auto px-6">
-                <h2 class="text-4xl font-bold mb-2 text-white">
+                <h2 class="text-6xl font-bold mb-2 text-white kakko">
                     UP DATA
                 </h2>
                 <h3 class="text-2xl mb-8 text-gray-200">
                     副題テキストテキストテキストテキストテキスト
                 </h3>
-                <button class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
+                <button onclick="location.href='#contact'" class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
                     お問い合わせ
                 </button>
             </div>
@@ -156,9 +156,7 @@
                             ボードメンバー
                         </h2>
                         <p class="text-lg leading-relaxed m-4">
-                            UP DOORSのボードメンバー紹介<br>
-                            テキストテキストテキストテキストテキストテキスト<br>
-                            テキストテキストテキストテキストテキストテキスト
+                            UP DOORSのボードメンバー紹介
                         </p>
                     </div>
                 </div>
@@ -181,9 +179,9 @@
                         <div class="px-6">
                             <img alt="..." src="https://assets.website-files.com/5e51c674258ffe10d286d30a/5e535bcfc9925003b4cb6660_peep-87.svg" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">社長の嫁</h5>
+                                <h5 class="text-xl font-bold">森本　のぞみ</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                    テキスト テキスト
+                                    専務取締役
                                 </p>
                             </div>
                         </div>
@@ -193,9 +191,9 @@
                         <div class="px-6">
                             <img alt="..." src="https://assets.website-files.com/5e51c674258ffe10d286d30a/5e5357a8c992500f5fc84f40_peep-52.svg" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">優秀な部下</h5>
+                                <h5 class="text-xl font-bold">中村　圭吾</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                    テキスト テキスト
+                                    社外取締役
                                 </p>
                             </div>
                         </div>
@@ -240,10 +238,10 @@
                                     <label class="block uppercase text-xs font-bold mb-2" for="full-name">お名前</label><input type="text" class="text-gray-900 px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="アップドアーズ" style="transition: all 0.15s ease 0s" />
                                 </div>
                                 <div class="relative w-full mb-3">
-                                    <label class="block uppercase text-xs font-bold mb-2" for="email">メールアドレス</label><input type="email" class="text-gray-900 px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="XXXXXXXX@up-doors.com" style="transition: all 0.15s ease 0s" />
+                                    <label class="block uppercase text-xs font-bold mb-2" for="email">メールアドレス</label><input type="email" class="text-gray-900 px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="xxxxxx@up-doors.com" style="transition: all 0.15s ease 0s" />
                                 </div>
                                 <div class="relative w-full mb-3">
-                                    <label class="block uppercase text-xs font-bold mb-2" for="message">お問い合わせ内容</label><textarea rows="4" cols="80" class="text-gray-900 px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="エンジニアが足りない！"></textarea>
+                                    <label class="block uppercase text-xs font-bold mb-2" for="message">お問い合わせ内容</label><textarea rows="4" cols="80" class="text-gray-900 px-3 py-3 placeholder-gray-400 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full" placeholder="エンジニア支援を希望"></textarea>
                                 </div>
                                 <div class="text-center mt-6">
                                     <button class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1" type="button" style="transition: all 0.15s ease 0s">
@@ -270,5 +268,32 @@
         background: url(~@/static/img/nagasaki02.jpg) center center no-repeat;
         background-attachment: fixed;
     }
+    .kakko {
+    position: relative;
+    padding:0.25em 1em;
+}
+.kakko:before,.kakko:after{ 
+    content:'';
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    display: inline-block;
+}
+.kakko:before{
+    border-left: solid 1px #5767bf;
+    border-top: solid 1px #5767bf;
+    top:0;
+    left: 0;
+}
+.kakko:after{
+    border-right: solid 1px #5767bf;
+    border-bottom: solid 1px #5767bf;
+    bottom:0;
+    right: 0;
+}
+.kakko p {
+    margin: 0; 
+    padding: 0;
+}
 
 </style>
