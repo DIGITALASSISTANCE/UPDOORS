@@ -4,13 +4,13 @@
         <!--parallaxTes-->
         <div class="bg-header flex items-center justify-center h-screen pb-12">
             <div class="container mx-auto px-6">
-                <h2 class="text-6xl font-bold mb-2 text-white kakko">
-                    UP DATA
-                </h2>
-                <h3 class="text-2xl mb-8 text-gray-200">
-                    副題テキストテキストテキストテキストテキスト
+                <div class="w-full md:w-1/2">
+                    <img src="~@/static/img/type.png" alt="update" />
+                </div>
+                <h3 class="text-xl mb-8 text-gray-200">
+                    ＵＰＤＯＯＲＳは時代に合ったＵＰＤＡＴＥを続けてまいります
                 </h3>
-                <button onclick="location.href='#contact'" class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
+                <button onclick="location.href='#contact'" style="background-color:#ED8936" class="text-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
                     お問い合わせ
                 </button>
             </div>
@@ -23,7 +23,7 @@
             </h2>
             <div class="flex items-center flex-wrap mb-20">
                 <h3 class="my-4 text-2xl text-gray-800">
-                    弊社は、”高品質×スピーディ”をモットーにITリソースを提供しております。要件定義から運用保守まで対応可能なエンジニアが在籍しており、中小規模のチーム体制の提案も可能でございます。
+                    I T市場の成長過程でリソースの獲得・確保・調整が必要になる中【チームUP DOORS】はより高い生産性・品質・雑談を掲げITリソースを提供いたします。
                 </h3>
                 <div class="w-full md:w-1/2">
                     <h4 class="text-3xl text-gray-800 font-bold mb-3">
@@ -167,9 +167,9 @@
                         <div class="px-6">
                             <img alt="..." src="https://assets.website-files.com/5e51c674258ffe10d286d30a/5e535b57f5fa1ab5dbfc2764_peep-83.svg" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">森崎 良二</h5>
+                                <h5 class="text-xl font-bold">千葉　智博</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                    代表取締役 社長
+                                    システムエンジア兼インフラエンジニア
                                 </p>
                             </div>
                         </div>
@@ -177,11 +177,11 @@
                     <!-- Card 2 -->
                     <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
                         <div class="px-6">
-                            <img alt="..." src="https://assets.website-files.com/5e51c674258ffe10d286d30a/5e535bcfc9925003b4cb6660_peep-87.svg" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
+                            <img alt="..." src="https://assets.website-files.com/5e51c674258ffe10d286d30a/5e53570264109d16a7014c37_peep-46.svg" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">森本　のぞみ</h5>
+                                <h5 class="text-xl font-bold">鈴木　照脩</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                    専務取締役
+                                    システムエンジニア
                                 </p>
                             </div>
                         </div>
@@ -191,9 +191,9 @@
                         <div class="px-6">
                             <img alt="..." src="https://assets.website-files.com/5e51c674258ffe10d286d30a/5e5357a8c992500f5fc84f40_peep-52.svg" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">中村　圭吾</h5>
+                                <h5 class="text-xl font-bold">佐々木　俊英</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                                    社外取締役
+                                    ICTコンサルタント
                                 </p>
                             </div>
                         </div>
@@ -268,32 +268,4 @@
         background: url(~@/static/img/nagasaki02.jpg) center center no-repeat;
         background-attachment: fixed;
     }
-    .kakko {
-    position: relative;
-    padding:0.25em 1em;
-}
-.kakko:before,.kakko:after{ 
-    content:'';
-    width: 20px;
-    height: 30px;
-    position: absolute;
-    display: inline-block;
-}
-.kakko:before{
-    border-left: solid 1px #5767bf;
-    border-top: solid 1px #5767bf;
-    top:0;
-    left: 0;
-}
-.kakko:after{
-    border-right: solid 1px #5767bf;
-    border-bottom: solid 1px #5767bf;
-    bottom:0;
-    right: 0;
-}
-.kakko p {
-    margin: 0; 
-    padding: 0;
-}
-
 </style>
