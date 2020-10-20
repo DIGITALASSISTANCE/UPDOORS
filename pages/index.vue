@@ -5,12 +5,12 @@
         <div class="bg-header flex items-center justify-center h-screen pb-12">
             <div class="container mx-auto px-6">
                 <div class="w-full md:w-1/2">
-                    <img src="~@/static/img/type.png" alt="update" />
+                    <img src="~@/static/img/type.png" alt="update">
                 </div>
                 <h3 class="text-xl mb-8 text-gray-200">
                     ＵＰＤＯＯＲＳは時代に合ったＵＰＤＡＴＥを続けてまいります
                 </h3>
-                <button onclick="location.href='#contact'" style="background-color:#ED8936" class="text-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
+                <button onclick="location.href='#contact'" class="text-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider bg-orange-500 hover:bg-orange-400 focus:outline-none ...">
                     お問い合わせ
                 </button>
             </div>
@@ -217,7 +217,7 @@
                         </h2>
                         <p class="text-lg leading-relaxed mt-4 mb-4">
                             エンジニアでお困りの方、サイトのリニューアルをお考えの方、外注先をお探しの企業さま
-                            その他ご相談など、お気軽にご連絡ください。<br>数日中に返信がない場合は <a href="mailto:info@up-doors.com">info@up-doors.com</a>へ直接ご連絡いただければ幸いです。</p>
+                            その他ご相談など、お気軽にご連絡ください。<br>数日中に返信がない場合は <a href="mailto:info@updoors.jp" class="underline hover:text-orange-400 focus:outline-none focus:underline ...">info@updoors.jp</a>へ直接ご連絡いただければ幸いです。</p>
                     </div>
                 </div>
             </div>
