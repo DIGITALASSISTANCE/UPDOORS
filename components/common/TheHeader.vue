@@ -18,16 +18,16 @@
         <div class="hidden lg:block">
           <ul class="inline-flex">
             <li>
-              <a class="px-4 font-bold" href="#about">UP DOORSについて</a>
+              <a class="px-4 font-bold hover:underline hover:text-orange-400 focus:outline-none focus:underline..." href="#about">UP DOORSについて</a>
             </li>
             <li>
-              <a class="px-4 hover:text-gray-800" href="#business">事業内容</a>
+              <a class="px-4 hover:text-gray-800 hover:underline hover:text-orange-400 focus:outline-none focus:underline..." href="#business">事業内容</a>
             </li>
             <li>
-              <a class="px-4 hover:text-gray-800" href="#company">企業情報</a>
+              <a class="px-4 hover:text-gray-800 hover:underline hover:text-orange-400 focus:outline-none focus:underline..." href="#company">企業情報</a>
             </li>
             <li>
-              <a class="px-4 hover:text-gray-800" href="#contact">お問い合わせ</a>
+              <a class="px-4 hover:text-gray-800 hover:underline hover:text-orange-400 focus:outline-none focus:underline..." href="#contact">お問い合わせ</a>
             </li>
           </ul>
         </div>
