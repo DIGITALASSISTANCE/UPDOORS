@@ -7,10 +7,6 @@
                 <div class="w-full md:w-1/2">
                     <img src="~@/static/img/type.png" alt="update">
                 </div>
-                <!--SP-->
-            <div class="w-full bg-cover bg-center sm:hidden" style="height:18rem; background: url(~@/static/img/nagasaki01.jpg) center center no-repeat;">
-            </div>
-            <!-- -->
                 <h3 class="text-xl mb-8 text-gray-200">
                     ＵＰＤＯＯＲＳは時代に合ったＵＰＤＡＴＥを続けてまいります
                 </h3>
