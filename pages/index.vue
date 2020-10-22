@@ -1,8 +1,28 @@
 <template>
 
     <body class="text-gray-700 bg-white" style="font-family: 'Helvetica', sans-serif">
+        <div class="pcnone w-full bg-cover bg-center" style="height:30rem; background-image: url('/img/nagasaki01.jpg');">
+                <div class="flex items-center justify-center h-full w-full">
+                    <!-- 
+                        <div class="text-center">
+                        <h2 class="text-white text-4xl font-semibold uppercase">UPDDOR</h2>
+                    </div>
+                    -->
+                    <div class="container mx-auto px-6">
+                <div class="w-full md:w-1/2">
+                    <img src="~@/static/img/type.png" alt="update">
+                </div>
+                <h3 class="text-xl mb-8 text-gray-200">
+                    ＵＰＤＯＯＲＳは時代に合ったＵＰＤＡＴＥを続けてまいります
+                </h3>
+                <button onclick="location.href='#contact'" class="text-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider bg-orange-500 hover:bg-orange-400 focus:outline-none ...">
+                    お問い合わせ
+                </button>
+            </div>
+                </div>
+            </div>
         <!--parallaxTes-->
-        <div class="bg-header flex items-center justify-center h-screen pb-12">
+        <div class="spnone bg-header flex items-center justify-center h-screen pb-12">
             <div class="container mx-auto px-6">
                 <div class="w-full md:w-1/2">
                     <img src="~@/static/img/type.png" alt="update">
@@ -68,7 +88,23 @@
             </div>
         </section>
 
-        <div class="bg-quote container flex items-center justify-center h-screen mx-auto">
+        <div class="pcnone w-full bg-cover bg-center" style="height:30rem; background-image: url('/img/nagasaki02.jpg');">
+                <div class="flex items-center justify-center h-full w-full">
+                    <!-- 
+                        <div class="text-center">
+                        <h2 class="text-white text-4xl font-semibold uppercase">UPDDOR</h2>
+                    </div>
+                    -->
+                    <div class="container mx-auto px-6">
+                        <blockquote class="bg-black font-serif mx-4 p-4 text-center text-white md:p-8">
+                <h3 class="font-bold italic text-2xl">
+                    わたしたちにできること
+                </h3>
+                 </blockquote>
+            </div>
+                </div>
+            </div>
+        <div class="spnone bg-quote container flex items-center justify-center h-screen mx-auto">
             <blockquote class="bg-black font-serif mx-4 p-4 text-center text-white md:p-8">
                 <p class="font-bold italic text-3xl">
                     わたしたちにできること
@@ -204,7 +240,59 @@
                 </div>
             </div>
         </section>
-
+        <!--company-->
+        <section id="company" class="pb-20 relative block bg-white text-black">
+            <div class="w-full bg-cover bg-center" style="height:18rem; background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+                <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+                    <div class="text-center">
+                        <h2 class="text-white text-4xl font-semibold uppercase">Company</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
+                <div class="flex flex-wrap text-center justify-center">
+                    <div class="w-full lg:w-6/12 px-4">
+                        <div>
+                            <dl>
+                         <div class="flex py-4 border-b-2 border-gray-300">
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">会社名</dt>
+                                <dd class="block flex-grow-1 text-left">UPDOORS株式会社</dd>
+                                </div>
+                        <div class="flex py-4 border-b-2 border-gray-300">
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">所在地</dt>
+                                <dd class="block flex-grow-1 text-left"><p><span class="inline-block">〒102-0074</span>
+                                <span class="inline-block">東京都千代田区九段下南1-5-6りそな九段ビル５Ｆ</span>
+                                </p></dd>
+                        </div>
+                        <div class="flex py-4 border-b-2 border-gray-300">
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">設　立</dt>
+                                <dd class="block flex-grow-1 text-left">2020年1月22日</dd>
+                        </div>
+                        <div class="flex py-4 border-b-2 border-gray-300">
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">資本金</dt>
+                                <dd class="block flex-grow-1 text-left">1,000,000円</dd>
+                        </div>
+                        <div class="flex py-4 border-b-2 border-gray-300">
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">代表者名</dt>
+                                <dd class="block flex-grow-1 text-left">森崎　良二</dd>
+                        </div>
+                        <div class="flex py-4 border-b-2 border-gray-300">
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">従業員数</dt>
+                                <dd class="block flex-grow-1 text-left">10人</dd>
+                        </div>
+                        <div class="flex py-4 border-b-2 border-gray-300">
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">事業内容</dt>
+                                <dd class="block flex-grow-1 text-left">
+                                    システムエンジニアリング、WEBコンテンツ制作・企画<br>
+                                    フリーランス独立支援
+                                </dd>
+                        </div>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Contact Header Section -->
         <section id="contact" class="pb-20 relative block bg-black text-white">
             <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px; transform: translateZ(0px)">
@@ -225,7 +313,6 @@
                 </div>
             </div>
         </section>
-
         <!-- Contact Form -->
         <section class="relative block py-24 lg:pt-0 bg-black">
             <div class="container mx-auto px-4">
@@ -257,61 +344,6 @@
                 </div>
             </div>
         </section>
-        <!--company-->
-        <section id="company" class="pb-20 relative block bg-black text-white">
-            <div class="w-full bg-cover bg-center" style="height:18rem; background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
-                <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
-                    <div class="text-center">
-                        <h2 class="text-white text-4xl font-semibold uppercase">Company</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
-                <div class="flex flex-wrap text-center justify-center">
-                    <div class="w-full lg:w-6/12 px-4">
-                        <div>
-                            <dl>
-                         <div class="flex py-2">
-                                <dt class="block flex-shrink-0 sm:w-56 w-24">会社名</dt>
-                                <dd class="block flex-grow-1 text-left">UPDOORS株式会社</dd>
-                                </div>
-                        <div class="flex py-2">
-                                <dt class="block flex-shrink-0 sm:w-56 w-24">所在地</dt>
-                                <dd class="block flex-grow-1 text-left"><p><span class="inline-block">〒102-0074</span>
-                                <span class="inline-block">東京都千代田区九段下南1-5-6りそな九段ビル５Ｆ</span>
-                                </p></dd>
-                        </div>
-                        <div class="flex py-2">
-                                <dt class="block flex-shrink-0 sm:w-56 w-24">設　立</dt>
-                                <dd class="block flex-grow-1 text-left">2020年1月22日</dd>
-                        </div>
-                        <div class="flex py-2">
-                                <dt class="block flex-shrink-0 sm:w-56 w-24">資本金</dt>
-                                <dd class="block flex-grow-1 text-left">1,000,000円</dd>
-                        </div>
-                        <div class="flex py-2">
-                                <dt class="block flex-shrink-0 sm:w-56 w-24">代表者名</dt>
-                                <dd class="block flex-grow-1 text-left">森崎　良二</dd>
-                        </div>
-                        <div class="flex py-2">
-                                <dt class="block flex-shrink-0 sm:w-56 w-24">従業員数</dt>
-                                <dd class="block flex-grow-1 text-left">10人</dd>
-                        </div>
-                        <div class="flex py-2">
-                                <dt class="block flex-shrink-0 sm:w-56 w-24">事業内容</dt>
-                                <dd class="block flex-grow-1 text-left">
-                                    システムエンジニアリング、WEBコンテンツ制作・企画<br>
-                                    フリーランス独立支援
-                                </dd>
-                        </div>
-                            </dl>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- test-->
     </body>
 </template>
 
@@ -326,5 +358,14 @@
         background: url(~@/static/img/nagasaki02.jpg) center center no-repeat;
         background-attachment: fixed;
     }
-
+@media screen and (max-width: 480px){
+    .spnone {
+        display: none;
+    }    
+}
+@media screen and (min-width: 480px){
+    .pcnone {
+        display: none;
+    }
+}
 </style>
