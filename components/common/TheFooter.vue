@@ -1,7 +1,7 @@
 <template>
     <footer class="footer text-center">
         <img class="f_logo" src="~/../../assets/images/logotype_praimry.png">
-        <span>© UP 2020 DOORS,Inc.</span></footer>
+        <span>© 2020 UP DOORS,Inc.</span></footer>
 </template>
 
 <style>
