@@ -15,6 +15,14 @@
                 </button>
             </div>
         </div>
+        <!--sp_mv-->
+                    <div class="w-full bg-cover bg-center sm:block" style="height:18rem; background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+                <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+                    <div class="text-center">
+                        <h2 class="text-white text-4xl font-semibold uppercase">Company</h2>
+                    </div>
+                </div>
+            </div>
 
         <!-- Features -->
         <section class="container mx-auto px-6 p-10">
@@ -273,33 +281,33 @@
                         <div>
                             <dl>
                          <div class="flex py-2">
-                                <dt class="block flex-shrink-0 w-56">会社名</dt>
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">会社名</dt>
                                 <dd class="block flex-grow-1 text-left">UPDOORS株式会社</dd>
                                 </div>
                         <div class="flex py-2">
-                                <dt class="block flex-shrink-0 w-56">所在地</dt>
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">所在地</dt>
                                 <dd class="block flex-grow-1 text-left"><p><span class="inline-block">〒102-0074</span>
                                 <span class="inline-block">東京都千代田区九段下南1-5-6りそな九段ビル５Ｆ</span>
                                 </p></dd>
                         </div>
                         <div class="flex py-2">
-                                <dt class="block flex-shrink-0 w-56">設　立</dt>
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">設　立</dt>
                                 <dd class="block flex-grow-1 text-left">2020年1月22日</dd>
                         </div>
                         <div class="flex py-2">
-                                <dt class="block flex-shrink-0 w-56">資本金</dt>
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">資本金</dt>
                                 <dd class="block flex-grow-1 text-left">1,000,000円</dd>
                         </div>
                         <div class="flex py-2">
-                                <dt class="block flex-shrink-0 w-56">代表者名</dt>
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">代表者名</dt>
                                 <dd class="block flex-grow-1 text-left">森崎　良二</dd>
                         </div>
                         <div class="flex py-2">
-                                <dt class="block flex-shrink-0 w-56">従業員数</dt>
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">従業員数</dt>
                                 <dd class="block flex-grow-1 text-left">10人</dd>
                         </div>
                         <div class="flex py-2">
-                                <dt class="block flex-shrink-0 w-56">事業内容</dt>
+                                <dt class="block flex-shrink-0 sm:w-56 w-24">事業内容</dt>
                                 <dd class="block flex-grow-1 text-left">
                                     システムエンジニアリング、WEBコンテンツ制作・企画<br>
                                     フリーランス独立支援
