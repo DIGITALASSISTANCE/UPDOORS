@@ -7,6 +7,9 @@
                 <div class="w-full md:w-1/2">
                     <img src="~@/static/img/type.png" alt="update">
                 </div>
+                <!--SP-->
+            <div class="w-full bg-cover bg-center sm:block" style="height:18rem; background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+            </div>
                 <h3 class="text-xl mb-8 text-gray-200">
                     ＵＰＤＯＯＲＳは時代に合ったＵＰＤＡＴＥを続けてまいります
                 </h3>
@@ -15,15 +18,6 @@
                 </button>
             </div>
         </div>
-        <!--sp_mv-->
-                    <div class="w-full bg-cover bg-center sm:block" style="height:18rem; background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
-                <div class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
-                    <div class="text-center">
-                        <h2 class="text-white text-4xl font-semibold uppercase">Company</h2>
-                    </div>
-                </div>
-            </div>
-
         <!-- Features -->
         <section class="container mx-auto px-6 p-10">
             <h2 id="about" class="text-4xl font-bold text-center text-teal-900 mb-8">
