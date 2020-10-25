@@ -18,16 +18,16 @@
         <div class="hidden lg:block">
           <ul class="inline-flex">
             <li>
-              <a class="px-4 font-bold hover:underline hover:text-orange-400 focus:outline-none focus:underline..." href="#about">UP DOORSについて</a>
+              <nuxt-link class="px-4 font-bold hover:underline hover:text-orange-400 focus:outline-none focus:underline..." v-scroll-to="'#about'" to>UP DOORSについて</nuxt-link>
             </li>
             <li>
-              <a class="px-4 hover:text-gray-800 hover:underline hover:text-orange-400 focus:outline-none focus:underline..." href="#business">事業内容</a>
+              <nuxt-link class="px-4 hover:text-gray-800 hover:underline hover:text-orange-400 focus:outline-none focus:underline..." v-scroll-to="'#business'" to>事業内容</nuxt-link>
             </li>
             <li>
-              <a class="px-4 hover:text-gray-800 hover:underline hover:text-orange-400 focus:outline-none focus:underline..." href="#company">企業情報</a>
+              <nuxt-link class="px-4 hover:text-gray-800 hover:underline hover:text-orange-400 focus:outline-none focus:underline..." v-scroll-to="'#company'" to>企業情報</nuxt-link>
             </li>
             <li>
-              <a class="px-4 hover:text-gray-800 hover:underline hover:text-orange-400 focus:outline-none focus:underline..." href="#contact">お問い合わせ</a>
+              <nuxt-link class="px-4 hover:text-gray-800 hover:underline hover:text-orange-400 focus:outline-none focus:underline..." v-scroll-to="'#contact'" to>お問い合わせ</nuxt-link>
             </li>
           </ul>
         </div>
