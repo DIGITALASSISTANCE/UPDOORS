@@ -13,6 +13,7 @@
     "core-js": "^3.6.5",
     "nuxt": "^2.14.7",
     "vue-backtotop": "^1.6.1",
+    "vue-scrollmagic": "^1.2.0",
     "vue-scrollto": "^2.19.1",
     "vue-tasty-burgers": "^1.2.3"
   },

@@ -6,7 +6,7 @@
 
 <style>
 footer{
-    padding: 80px 0;
+    padding: 40px 0;
 }
 .f_logo {
     margin: 0 auto;
