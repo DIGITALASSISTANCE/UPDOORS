@@ -54,12 +54,12 @@
 
                     </p>
                 </div>
-                <div class="w-full md:w-1/2">
+                <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
                     <img src="https://www.dropbox.com/s/mimcvn6zxtoruis/health.svg?raw=1" alt="Monitoring" />
                 </div>
             </div>
             <div class="flex items-center flex-wrap mb-20">
-                <div class="w-full md:w-1/2">
+                <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
                     <img src="https://www.dropbox.com/s/hllo2ueo8zgi2tt/report.svg?raw=1" alt="Reporting" />
                 </div>
                 <div class="w-full md:w-1/2 pl-10">
@@ -82,7 +82,7 @@
 
                     </p>
                 </div>
-                <div class="w-full md:w-1/2">
+                <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
                     <img src="https://www.dropbox.com/s/v0x0ywlvgmw04z6/sync.svg?raw=1" alt="Syncing" />
                 </div>
             </div>
@@ -97,7 +97,7 @@
                     -->
                     <div class="container mx-auto px-6">
                         <blockquote class="bg-black font-serif mx-4 p-4 text-center text-white md:p-8">
-                <h3 class="font-bold italic text-2xl">
+                <h3 class="kakko font-bold italic text-2xl">
                     わたしたちにできること
                 </h3>
                  </blockquote>
@@ -106,7 +106,7 @@
             </div>
         <div class="spnone bg-quote container flex items-center justify-center h-screen mx-auto">
             <blockquote class="bg-black font-serif mx-4 p-4 text-center text-white md:p-8">
-                <p class="font-bold italic text-3xl">
+                <p class="kakko font-bold italic text-3xl">
                     わたしたちにできること
                 </p>
             </blockquote>
@@ -283,8 +283,8 @@
                         <div class="flex py-4 border-b-2 border-gray-300">
                                 <dt class="block flex-shrink-0 sm:w-56 w-24">事業内容</dt>
                                 <dd class="block flex-grow-1 text-left">
-                                    システムエンジニアリング、WEBコンテンツ制作・企画<br>
-                                    フリーランス独立支援
+                                    - システムエンジニアリング<br>- WEBコンテンツ制作・企画<br>
+                                    - フリーランス独立支援
                                 </dd>
                         </div>
                             </dl>
@@ -367,5 +367,34 @@
     .pcnone {
         display: none;
     }
+}
+.kakko {
+  position: relative;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.kakko:before,
+.kakko:after {
+  position: absolute;
+  content: '';
+}
+
+.kakko:after {
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
+
+.kakko:before {
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 </style>
