@@ -13,7 +13,7 @@
                         <img src="~@/static/img/type.png" alt="update">
                     </div>
                     <h3 class="text-xl mb-8 text-gray-200">
-                        UP DOORSは時代に合ったUP DATEを続けてまいります
+                        ＵＰ ＤＯＯＲＳは時代に合ったＵＰＤＡＴＥを続けてまいります
                     </h3>
                     <button onclick="location.href='#contact'" class="text-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider bg-orange-500 hover:bg-orange-400 focus:outline-none ...">
                         お問い合わせ
@@ -28,7 +28,7 @@
                     <img src="~@/static/img/type.png" alt="update">
                 </div>
                 <h3 class="text-xl mb-8 text-gray-200">
-                    UP DOORSは時代に合ったUPDATEを続けてまいります
+                    ＵＰ ＤＯＯＲＳは時代に合ったＵＰＤＡＴＥを続けてまいります
                 </h3>
                 <nuxt-link v-scroll-to="'#contact'" to><button onclick="location.href='#contact'" class="text-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider bg-orange-500 hover:bg-orange-400 focus:outline-none ...">
                     お問い合わせ
