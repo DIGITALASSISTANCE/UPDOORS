@@ -41,21 +41,15 @@
                 わたしたちについて
             </h2>
             <div class="flex items-center flex-wrap mb-20">
-                <h3 class="my-4 text-l text-gray-800">
-                    UP DOORSは多種多様なお客さまのニーズに応えエンジニアリングを提供し
-デジタルトランスフォーメーション、デジタルビジネスをサポートいたします。<br>
-
-また高品質かつ安定したエンジニアリングを提供するために内部リソースの強化に尽力し
-エンジニア、営業への高還元はもちろんのこと幸福度を引き上げることを目指しております。
+                <h3 class="my-4 text-2xl text-gray-800">
+                  エンジニアリングでお客さまのさまざまな課題を解決し、ビジネスの成長に貢献する
                 </h3>
                 <div class="w-full md:w-1/2">
                     <h4 class="text-3xl text-gray-800 font-bold mb-3">
                         01
                     </h4>
                     <p class="text-gray-600 mb-8">
-                        エンジニアへの還元率・幸福度を引き上げる、お客様の発展に貢献エンジニアへ高還元は当たり前！！
-                        人材不足だからこそ、より高い生産性・品質・雑談を提供し、お客様・エンジニアと共に社会貢献を実現する集団
-
+                      多種多様なお客さまのニーズに応えエンジニアリングを提供しデジタルトランスフォーメーション、デジタルビジネスをサポートいたします。
                     </p>
                 </div>
                 <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
@@ -71,8 +65,7 @@
                         02
                     </h4>
                     <p class="text-gray-600 mb-8">
-                        お客様の発展に貢献できるよう努め、共に社会貢献へ取り組みます。
-                        優秀なエンジニア・営業が稼げる完全成果主義プラットフォーム作りお客様の立場に立って物事を考えられる集団。
+                        高品質かつ安定したエンジニアリングを提供するために内部リソースの強化に尽力しエンジニア、営業への高還元はもちろんのこと幸福度を引き上げることを目指しております。
                     </p>
                 </div>
             </div>
@@ -82,9 +75,8 @@
                         03
                     </h4>
                     <p class="text-gray-600 mb-8">
-                        非日常を提供し、リタイヤ後の充実を実現する為、エンジニアのつながりを大事にし、弊社独自のコミュニティ運営
-
-                    </p>
+                        弊社の企業理念である『期待値を読み取る、そして超える / Read the expected value, And exceed』組織
+                        </p>
                 </div>
                 <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
                     <img src="~@/static/img/about03.svg" alt="update">
@@ -134,8 +126,7 @@
                                 システムエンジニアリング
                             </p>
                             <div style="display: inline;" class="h-24">
-                                <img src="https://soco-st.com/wp-content/uploads/2020/09/programmer_man_3079_line.png
-" alt="" class="mx-auto">
+                                <img src="~@/static/img/business01.svg" alt="ses" class="w-40 mx-auto">
                             </div>
                             <p class="text-gray-800 text-base px-6 mb-5">
                                 要件定義から運用保守まで対応可能な20〜30代のエンジニアが在籍しております。
@@ -152,8 +143,7 @@
                                 独立支援事業
                             </p>
                             <div style="display: inline;" class="h-24">
-                                <img src="https://soco-st.com/wp-content/uploads/2020/08/remotework_2414_line.png
-" alt="" class="mx-auto">
+                                <img src="~@/static/img/business02.svg" alt="incubation" class="w-40 mx-auto">
                             </div>
                             <p class="text-gray-800 text-base px-6 mb-5">
                                 正社員からフリーランスに転身される方のご相談やサポートをしております。
@@ -172,7 +162,7 @@
                                 制作事業
                             </p>
                             <div style="display: inline;" class="h-24">
-                                <img src="https://soco-st.com/wp-content/uploads/2020/05/whitehacker_woman_944_line.png" alt="" class="mx-auto">
+                                <img src="~@/static/img/business03.svg" alt="web" class="w-40 mx-auto">
                             </div>
                             <p class="text-gray-800 text-base px-6 mb-5">
                                 PC、スマートフォンをはじめワンソースで制作
@@ -208,7 +198,7 @@
                     <!-- Card 1 -->
                     <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
                         <div class="px-6">
-                            <img alt="..." src="https://assets.website-files.com/5e51c674258ffe10d286d30a/5e535b57f5fa1ab5dbfc2764_peep-83.svg" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
+                            <img src="~@/static/img/member01.svg" alt="update" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 200px">
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">千葉　智博</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
@@ -220,7 +210,7 @@
                     <!-- Card 2 -->
                     <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
                         <div class="px-6">
-                            <img alt="..." src="https://assets.website-files.com/5e51c674258ffe10d286d30a/5e53570264109d16a7014c37_peep-46.svg" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
+                            <img src="~@/static/img/member02.svg" alt="update" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 200px">
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">鈴木　照脩</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
@@ -232,7 +222,7 @@
                     <!-- Card 3 -->
                     <div class="w-full md:w-4/12 lg:mb-0 mb-12 px-4" data-aos="flip-right">
                         <div class="px-6">
-                            <img alt="..." src="https://assets.website-files.com/5e51c674258ffe10d286d30a/5e5357a8c992500f5fc84f40_peep-52.svg" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 250px" />
+                           <img src="~@/static/img/member03.svg" alt="update" class="shadow-lg rounded max-w-full mx-auto" style="max-width: 200px">
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold">佐々木　俊英</h5>
                                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
