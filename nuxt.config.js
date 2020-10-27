@@ -14,7 +14,7 @@ export default {
       { hid: 'og:url', property: 'og:url', content: 'https:updoors.jp' },
       { hid: 'og:title', property: 'og:title', content: 'UP DOORS株式会社(アップドアーズ)' },
       { hid: 'og:description', property: 'og:description', content: 'UP DOORS株式会社は、システムエンジニアリングサービスを通じてお客様のさまざまな課題解決、事業拡大を支援するITソリューション企業です。' },
-      { hid: 'og:image', property: 'og:image', content: 'logotype_praimry.png' },
+      { hid: 'og:image', property: 'og:image', content: '/logotype_praimry.png/' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
