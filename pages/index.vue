@@ -3,7 +3,7 @@
     <body class="text-gray-700 bg-white" style="font-family: 'Helvetica', sans-serif">
         <div class="pcnone w-full bg-cover bg-center" style="height:30rem; background-image: url('/img/nagasaki01.jpg');">
             <div class="flex items-center justify-center h-full w-full">
-                <!-- 
+                <!--
                         <div class="text-center">
                         <h2 class="text-white text-4xl font-semibold uppercase">UPDDOR</h2>
                     </div>
@@ -41,8 +41,12 @@
                 わたしたちについて
             </h2>
             <div class="flex items-center flex-wrap mb-20">
-                <h3 class="my-4 text-2xl text-gray-800">
-                    I T市場の成長過程でリソースの獲得・確保・調整が必要になる中【チームUP DOORS】はより高い生産性・品質・雑談を掲げITリソースを提供いたします。
+                <h3 class="my-4 text-l text-gray-800">
+                    UP DOORSは多種多様なお客さまのニーズに応えエンジニアリングを提供し
+デジタルトランスフォーメーション、デジタルビジネスをサポートいたします。<br>
+
+また高品質かつ安定したエンジニアリングを提供するために内部リソースの強化に尽力し
+エンジニア、営業への高還元はもちろんのこと幸福度を引き上げることを目指しております。
                 </h3>
                 <div class="w-full md:w-1/2">
                     <h4 class="text-3xl text-gray-800 font-bold mb-3">
@@ -55,12 +59,12 @@
                     </p>
                 </div>
                 <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
-                    <img src="https://www.dropbox.com/s/mimcvn6zxtoruis/health.svg?raw=1" alt="Monitoring" />
+                    <img src="~@/static/img/about01.svg" alt="update">
                 </div>
             </div>
             <div class="flex items-center flex-wrap mb-20">
                 <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
-                    <img src="https://www.dropbox.com/s/hllo2ueo8zgi2tt/report.svg?raw=1" alt="Reporting" />
+                    <img src="~@/static/img/about02.svg" alt="update">
                 </div>
                 <div class="w-full md:w-1/2 pl-10">
                     <h4 class="text-3xl text-gray-800 font-bold mb-3">
@@ -83,14 +87,14 @@
                     </p>
                 </div>
                 <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
-                    <img src="https://www.dropbox.com/s/v0x0ywlvgmw04z6/sync.svg?raw=1" alt="Syncing" />
+                    <img src="~@/static/img/about03.svg" alt="update">
                 </div>
             </div>
         </section>
 
         <div class="pcnone w-full bg-cover bg-center" style="height:30rem; background-image: url('/img/nagasaki02.jpg');">
             <div class="flex items-center justify-center h-full w-full">
-                <!-- 
+                <!--
                         <div class="text-center">
                         <h2 class="text-white text-4xl font-semibold uppercase">UPDDOR</h2>
                     </div>
