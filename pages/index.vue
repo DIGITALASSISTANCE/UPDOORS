@@ -48,8 +48,8 @@
                     <h4 class="text-3xl text-gray-800 font-bold mb-3">
                         01
                     </h4>
-                    <p class="text-gray-600 mb-8">
-                      多種多様なお客さまのニーズに応えエンジニアリングを提供しデジタルトランスフォーメーション、デジタルビジネスをサポートいたします。
+                    <p class="tracking-wide leading-7 text-gray-600 mb-8">
+                      UP DOORSは多種多様なお客さまのニーズに応えエンジニアリングを提供しデジタルトランスフォーメーション、デジタルビジネスをサポートいたします。
                     </p>
                 </div>
                 <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
@@ -60,11 +60,11 @@
                 <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
                     <img src="~@/static/img/about02.svg" alt="update">
                 </div>
-                <div class="w-full md:w-1/2 pl-10">
+                <div class="w-full md:w-1/2 sm:pl-10">
                     <h4 class="text-3xl text-gray-800 font-bold mb-3">
                         02
                     </h4>
-                    <p class="text-gray-600 mb-8">
+                    <p class="tracking-wide leading-7 text-gray-600 mb-8">
                         高品質かつ安定したエンジニアリングを提供するために内部リソースの強化に尽力しエンジニア、営業への高還元はもちろんのこと幸福度を引き上げることを目指しております。
                     </p>
                 </div>
@@ -74,7 +74,7 @@
                     <h4 class="text-3xl text-gray-800 font-bold mb-3">
                         03
                     </h4>
-                    <p class="text-gray-600 mb-8">
+                    <p class="tracking-wide leading-7 text-gray-600 mb-8">
                         弊社の企業理念である『期待値を読み取る、そして超える / Read the expected value, And exceed』組織
                         </p>
                 </div>
@@ -126,9 +126,9 @@
                                 システムエンジニアリング
                             </p>
                             <div style="display: inline;" class="h-24">
-                                <img src="~@/static/img/business01.svg" alt="ses" class="w-40 mx-auto">
+                                <img src="~@/static/img/business01.svg" alt="ses" class="w-32 mx-auto">
                             </div>
-                            <p class="text-gray-800 text-base px-6 mb-5">
+                            <p class="text-gray-800 text-base px-6 my-5">
                                 要件定義から運用保守まで対応可能な20〜30代のエンジニアが在籍しております。
                                 IT市場の成長過程でリソースの獲得・確保・調整が必要となる中
                                 《チームUP DOORS》は、より高い生産性・品質・雑談を掲げITリソースを提供いたします。</p>
@@ -143,9 +143,9 @@
                                 独立支援事業
                             </p>
                             <div style="display: inline;" class="h-24">
-                                <img src="~@/static/img/business02.svg" alt="incubation" class="w-40 mx-auto">
+                                <img src="~@/static/img/business02.svg" alt="incubation" class="w-48 sm:w-56 mx-auto">
                             </div>
-                            <p class="text-gray-800 text-base px-6 mb-5">
+                            <p class="text-gray-800 text-base px-6 my-5">
                                 正社員からフリーランスに転身される方のご相談やサポートをしております。
                             </p>
                             <p class="text-gray-800 text-base px-6 mb-5">
@@ -162,9 +162,9 @@
                                 制作事業
                             </p>
                             <div style="display: inline;" class="h-24">
-                                <img src="~@/static/img/business03.svg" alt="web" class="w-40 mx-auto">
+                                <img src="~@/static/img/business03.svg" alt="web" class="w-32 mx-auto">
                             </div>
-                            <p class="text-gray-800 text-base px-6 mb-5">
+                            <p class="text-gray-800 text-base px-6 my-5">
                                 PC、スマートフォンをはじめワンソースで制作
                                 お客さまがご自身で情報発信、更新できるブログシステムを構築します。</p>
                             <p class="text-gray-800 text-base px-6 mb-5">
