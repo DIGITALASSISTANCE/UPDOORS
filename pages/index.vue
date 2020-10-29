@@ -52,12 +52,12 @@
                       UP DOORSは多種多様なお客さまのニーズに応えエンジニアリングを提供しデジタルトランスフォーメーション、デジタルビジネスをサポートいたします。
                     </p>
                 </div>
-                <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
+                <div class="w-3/4 mx-auto md:w-1/3">
                     <img src="~@/static/img/about01.svg" alt="update">
                 </div>
             </div>
             <div class="flex items-center flex-wrap mb-20">
-                <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
+                <div class="w-3/4 mx-auto md:w-1/3">
                     <img src="~@/static/img/about02.svg" alt="update">
                 </div>
                 <div class="w-full md:w-1/2 sm:pl-10">
@@ -78,7 +78,7 @@
                         弊社の企業理念である『期待値を読み取る、そして超える / Read the expected value, And exceed』組織
                         </p>
                 </div>
-                <div class="w-3/4 sm:w-full mx-auto md:w-1/2">
+                <div class="w-3/4 mx-auto md:w-1/3">
                     <img src="~@/static/img/about03.svg" alt="update">
                 </div>
             </div>
