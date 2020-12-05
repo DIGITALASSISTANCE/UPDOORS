@@ -11,7 +11,6 @@ export default ({ app }) => {
     duration: 800
   })
 }
-
 Vue.mixin({
   watch: {
     '$route.path': function () {
