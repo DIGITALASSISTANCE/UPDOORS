@@ -15,7 +15,7 @@
                     <h3 class="text-xl mb-8 text-gray-200">
                         ＵＰ ＤＯＯＲＳは時代に合ったＵＰＤＡＴＥを続けてまいります
                     </h3>
-                    <button onclick="location.href='#contact'" class="text-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider bg-orange-500 hover:bg-orange-400 focus:outline-none ...">
+                    <button data-aos="zoom-in" onclick="location.href='#contact'" class="text-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider bg-orange-500 hover:bg-orange-400 focus:outline-none ...">
                         お問い合わせ
                     </button>
                 </div>

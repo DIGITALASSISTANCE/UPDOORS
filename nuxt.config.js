@@ -55,6 +55,9 @@ export default {
 const pkg = require('./package')
 
 module.exports = {
+  plugins: [
+    { src: '~/plugins/aos', ssr: false },
+  ],
   generate:{
     fallback: true
   },
